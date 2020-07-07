@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" class=" js no-touch">
+
+<head>
+  <title>Kitchen Appliances</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/slick-team-slider.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- =======================================================
+    Theme Name: Tempo
+    Theme URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+<style>
+ul {
+
+  list-style-type: none;
+  float: left;
+  padding:0;
+  width:150px;
+  height:268px;
+  margin-right: 40px;
+}
+.footer ul {
+  list-style-type:none;
+  font-size:16;
+  line-height:2;
+  font-family:arial;
+  margin-left:90;
+  }
+
+li a {
+display:block;
+color:white;
+
+padding:10px 0 10px 16px;
+text-decoration:none;
+}
+
+.navbar {
+  width: 100%;
+  height: :100% ;
+  position: fixed;
+  padding:5px;
+  font-family: arial;
+  margin-top: -8px;
+  margin-bottom: 200px;
+  background-color:#330000;
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+  word-spacing: 20px;
+}
+
+
+a {
+  
+  padding:7px 15px 7px 0px;
+  color:white;
+  font-size: 20;
+  text-decoration: none;
+  
+}
+a:link {
+color:white;
+font-family: arial;
+}
+li a:link{color:white;}
+li a:hover {
+background-color:white;
+color: red;
+}
+
+a:hover {
+
+color: white;
+
+}
+
+a:active {
+  background-color: #4CAF50;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;  
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+.dropdown-content a {
+  color: black;
+  font-size:20px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color:purple;color:white;}
+
+.dropdown:hover .dropdown-content {
+  display: block;}
+.img1 {float:left;margin-right: 20px;}
+.img1 a:hover{background-color:rgba(0,0,0,0.3);}
+.img2 {padding-top:20px;}
+.Log-In{float:right;}
+.content{background-color: white;margin: 0px;height:2200;top:100px;position: relative;}
+.footer {background-color:#330000;margin-top:0px;height:300;color:white;width:100%;}
+.footer1 {background-color:white;margin: 0px;height:100;color:black;}
+.follow {float: left; padding-left: 100px;padding-top:10px;color:white;}
+.ktta {
+  float:left;
+}
+h1 {
+  font-size:40px;
+  font-family:Arial;
+  text-align:center;
+  }
+p {
+  
+  font-size:18px;
+  text-indent:30px;
+  padding:15px;
+  }
+  #btn{margin-left:40px; padding-left:20px;padding-right:20px;float:center;}
+.column {
+  float: right;
+  width: 24.70%;
+  padding-left: 40px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.df {color:white;float:left;width:auto;height:150px;margin-top:200px;border:3px }
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  padding-top: 20px;
+ margin-top:50px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #818181;
+
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top:100px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#d{color:Black; font-family:Bookman Old Style}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+pre{font-size:18px;}
+</style>
+
+<body>
+  <!--HEADER START-->
+  <div class="navbar">
+<div class="img1"><a href="index.html"><img src="images/logo.png"  width=150px height=60px></a></div><br>
+  <a href="index.html"><i class="fas fa-home"></i>Home</a> 
+  <div class="dropdown">
+  <a href="javascript:void(0)" ><i class="c"></i>Categories</a>
+  <div class="dropdown-content">
+    <a href="">Appliances</a>
+    <a href="pans.html">Fry pans</a>
+    <a href="bakeware.html">Bakeware Sets</a>
+    <a href="knives.html">knives</a>
+    <a href="Serveware.html">Serveware</a>
+    <a href="Lenin.html">Kitchen Lenin</a>
+    <a href="Cookware.html">Cookware</a>
+
+  </div>
+</div>
+  <a href="about.html"><i class="far fa-newspaper"></i>About-Us</a> 
+  <a href="contact.html"><i class="fas fa-address-card"></i>Contact-Us</a>
+  <div class="Log-In">
+    <a href="login.html">Login</a> 
+    <a href="signup.html">Sign-up</a> 
+  </div>
+</div>
+<br>
+  <!--HEADER END-->
+
+<div class="sidenav">
+
+  <h3 id="d"><pre>Categories</pre></h3><hr>
+  <a href="#">ALL</a>
+   <a href="">Appliances</a>
+    <a href="pans.html">Fry pans</a>
+    <a href="bakeware.html">Bakeware Sets</a>
+    <a href="knives.html">knives</a>
+    <a href="Serveware.html">Serveware</a>
+    <a href="Lenin.html">Kitchen Lenin</a>
+    <a href="Cookware.html">Cookware</a>
+</div>
+
+<div class="main">
+ <center><h2 style="font-size:30px;font-family:italian;"><b>Kitchen Appliances</h2></center>
+ <div class="row">
+  <div class="column">
+   <a href="Men.html"><img src="images/a4.jpg" alt="Snow" style="width:100%"> </a>
+    <h4>WONDERCHEF Acura Plus Electric Kettle</h4>
+    <button id ="btn">Buy</button>
+    
+  </div>
+  <div class="column">
+   <a href="tryprod.html"> <img src="images/a3.jpg" alt="Forest" style="width:100%"></a>
+    <h4>WONDERCHEF Vietri Mixer Grinder</h4>
+    <button id ="btn">Buy</button>
+   
+  </div>
+  <div class="column">
+   <a href="Digital.html"> <img src="images/a2.jpg" alt="Mountains" style="width:100%"></a>
+    <h4>WONDERCHEF Deep Pocket Sandwich Maker</h4>
+    <button id ="btn">Buy</button>
+  </div>
+  <div class="column">
+   <a href="Men.html"> <img src="images/a1.jpg" alt="Forest" style="width:100%"></a>
+    <h4>Regent-Caffeina Manual Coffee Grinder</h4>
+    <button id ="btn">Buy</button>
+<br>
+<br>
+  </div>
+
+</div> 
+ <div class="row">
+  <div class="column">
+   <a href="Men.html"><img src="images/a9.jpg" alt="Snow" style="width:100%"> </a>
+    <h4>Oven Toaster Grill - 10 Litres</h4>
+    <button id ="btn">Buy</button>
+    
+  </div>
+  <div class="column">
+   <a href="tryprod.html"> <img src="images/a10.jpg" alt="Forest" style="width:100%"></a>
+    <h4>Wonderchef Super TandoorFamily Size</h4>
+    <button id ="btn">Buy</button>
+   
+  </div>
+  <div class="column">
+   <a href="Digital.html"> <img src="images/a11.jpg" alt="Mountains" style="width:100%"></a>
+    <h4>Faber Oven Microwave FMWO 32 NH</h4>
+    <button id ="btn">Buy</button>
+  </div>
+  <div class="column">
+   <a href="Men.html"> <img src="images/a12.jpg" alt="Forest" style="width:100%"></a>
+    <h4>Acura Slice Toaster</h4>
+    <button id ="btn">Buy</button>
+<br>
+<br>
+  </div>
+
+</div> 
+<div class="row">
+  <div class="column">
+   <a href="Men.html"><img src="images/a5.jpg" alt="Snow" style="width:100%"> </a>
+    <h4>WONDERCHEF Luxe Electric Kettle - 1.7 L</h4>
+    <button id ="btn">Buy</button>
+    
+  </div>
+  <div class="column">
+   <a href="tryprod.html"> <img src="images/a6.jpg" alt="Forest" style="width:100%"></a>
+    <h4>WONDERCHEF Nutri-blend Compact Food Processor</h4>
+    <button id ="btn">Buy</button>
+   
+  </div>
+  <div class="column">
+   <a href="Digital.html"> <img src="images/a7.jpg" alt="Mountains" style="width:100%"></a>
+    <h4>Regal 2 Burner GlassTop steel</h4>
+    <button id ="btn">Buy</button>
+  </div>
+  <div class="column">
+   <a href="Men.html"> <img src="images/a8.jpg" alt="Forest" style="width:100%"></a>
+    <h4>Prestige Induction Cooktop With Remote</h4>
+    <button id ="btn">Buy</button>
+<br>
+<br>
+  </div>
+
+</div> 
+   <br>
+<br>
+ <!-- Content page -->
+	
+ 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>

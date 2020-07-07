@@ -1,0 +1,509 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ <title>Home Town</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/slick-team-slider.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- =======================================================
+    Theme Name: Tempo
+    Theme URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+.column {
+  float: right;
+  width: 24.70%;
+  padding: 5px;
+}
+.netext{background-color: lightgrey;}
+h4{font-size: 20px;}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+	
+ul {
+
+  list-style-type: none;
+  float: left;
+  padding:0;
+  width:150px;
+  height:268px;
+  margin-right: 40px;
+}
+.footer ul {
+  list-style-type:none;
+  font-size:16;
+  line-height:2;
+  font-family:arial;
+  margin-left:90;
+  }
+
+li a {
+display:block;
+color:white;
+
+padding:10px 0 10px 16px;
+text-decoration:none;
+}
+
+.navbar {
+  width: 100%;
+  height: :100%	;
+  position: fixed;
+  padding:5px;
+  font-family: arial;
+  margin-top: -8px;
+  margin-bottom: 200px;
+  background-color:#330000;
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+  word-spacing: 20px;
+}
+
+
+a {
+  
+  padding:7px 15px 7px 0px;
+  color:white;
+  font-size: 20;
+  text-decoration: none;
+  
+}
+a:link {
+color:white;
+font-family: arial;
+}
+li a:link{color:white;}
+li a:hover {
+background-color:white;
+color: red;
+}
+
+a:hover {
+
+color: white;
+
+}
+
+a:active {
+  background-color: #4CAF50;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;	
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+.dropdown-content a {
+  color: black;
+  font-size:20px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color:purple;color:white;}
+
+.dropdown:hover .dropdown-content {
+  display: block;}
+.img1 {float:left;margin-right: 20px;}
+.img1 a:hover{background-color:rgba(0,0,0,0.3);}
+.img2 {padding-top:20px;}
+.Log-In{float:right;}
+.content{background-color: white;margin: 0px;height:2200;top:100px;position: relative;}
+.footer {background-color:#330000;margin-top:0px;height:300;color:white;width:100%;}
+.footer1 {background-color:white;margin: 0px;height:100;color:black;}
+.follow {float: left; padding-left: 100px;padding-top:10px;color:white;}
+.ktta {
+	float:left;
+}
+h1 {
+	font-size:40px;
+	font-family:Arial;
+	text-align:center;
+	}
+p {
+	font-family:arial;
+	font-size:25px;
+	text-indent:30px;
+	padding:15px;
+	}
+.mid {
+	margin:auto;
+	
+	width:1000px;
+	height:1700px;
+	}
+.stg {
+	margin-left:20px;
+	margin-top:20px;
+	border:1px solid cyan;
+	image-size:cover;
+	width:450px;
+	height:500px;
+	float:left;
+	background-color:blue;
+	
+	}
+.of {
+	border:1px solid red;
+	width:450px;
+	height:500px;
+	float:right;
+	margin-top:20px;
+	margin-right:20px;
+	}
+.food {
+	margin-left:20px;
+	margin-top:40px;
+	border:1px solid pink;
+	width:450px;
+	height:500px;
+	float:left;
+	}
+.gps {
+	border:1px solid brown;
+	width:450px;
+	height:500px;
+	float:right;
+	margin-top:40px;
+	margin-right:20px;
+	}
+.hw {
+	margin-left:20px;
+	margin-top:40px;
+	border:1px solid green;
+	width:450px;
+	height:500px;
+	float:left;
+	}
+.fw {
+	border:1px solid orange;
+	width:450px;
+	height:500px;
+	float:right;
+	margin-top:40px;
+	margin-right:20px;
+	background-color:;
+	}
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+	height:auto;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+ 
+</style>
+
+<body>
+<div class="navbar">
+<div class="img1"><a href=""><img src="images/logo.png"  width=150px height=60px></a></div><br>
+  <a href=""><i class="fas fa-home"></i>Home</a> 
+  <div class="dropdown">
+  <a href="javascript:void(0)" ><i class="c"></i>Categories</a>
+  <div class="dropdown-content">
+    <a href="appliances.html">Appliances</a>
+    <a href="pans.html">Frypans</a>
+    <a href="bakeware.html">Bakeware</a>
+    <a href="knives.html">knives</a>
+    <a href="kids.html">Serveware</a>
+    <a href="lenin.html">Kitchen Lenin</a>
+    <a href="cookware.html">Cookware</a>
+
+  </div>
+</div>
+  <a href="about.html"><i class="far fa-newspaper"></i>About-Us</a> 
+  <a href="contact.html"><i class="fas fa-address-card"></i>Contact-Us</a>
+  <div class="Log-In">
+  	<a href="login.html">Login</a> 
+  	<a href="signup.html">Sign-up</a> 
+  </div>
+</div>
+<br>
+<div class="content">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="images/photo1.jpg" style="width:100% " >
+  
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="images/photo2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="images/photo3.jpg" style="width:100%" >
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4/ 4</div>
+  <img src="images/photo4.jpg" style="width:100%" >
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+<span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+<br>
+<br>
+<img src="images/home1.jpg"  alt="prestige cooker" width="100%">
+<br>
+<br>
+
+<center>
+<h2 style="font-family:italian;">Popular Categories</h2></center>
+ <div class="row">
+  <div class="column">
+   <a href="appliances.html"><img src="images/s1.jpg" alt="Snow" style="width:100%"> </a>
+    <h4>Kitchen Appliances</h4>
+    
+  </div>
+  <div class="column">
+   <a href="Serveware.html"> <img src="images/s2.jpg" alt="Forest" style="width:100%"></a>
+    <h4>Containers</h4>
+   
+  </div>
+  <div class="column">
+   <a href="pans.html"> <img src="images/s3.jpg" alt="Mountains" style="width:100%"></a>
+    <h4>Fry pans</h4>
+    
+  </div>
+  <div class="column">
+   <a href="bakeware.html"> <img src="images/s4.jpg" alt="Forest" style="width:100%"></a>
+    <h4>Bakeware Sets</h4>
+<br>
+<br>
+  </div>
+
+</div> 
+<div class="row">
+  <div class="column">
+   <a href="knives.html"><img src="images/knife6.jpg" alt="Snow" style="width:100%"> </a>
+    <h4>knifes</h4>
+    
+  </div>
+  <div class="column">
+   <a href="Serveware.html"> <img src="images/s7.jpg" alt="Forest" style="width:100%"></a>
+    <h4>Serveware</h4>
+   
+  </div>
+  <div class="column">
+   <a href="lenin.html"> <img src="images/s6.jpg" alt="Mountains" style="width:100%"></a>
+    <h4>Kitchen Lenin</h4>
+    
+  </div>
+  <div class="column">
+   <a href="cookware.html"> <img src="images/s5.jpg" alt="Forest" style="width:100%"></a>
+    <h4>Cookware</h4>
+<br>
+<br>
+  </div>
+
+</div> 
+<br>
+<br>
+<br>
+<a href="cookware.html" ><img src="images/z1.jpg"  alt="prestige cooker" width="100%"></a>
+<br>
+<br>
+<center><h2 style="font-family:italian;"><b>Best Sellers</h2></center>
+<hr style="height:2px;width:20%;border-width:0;color:gray;background-color:red">
+<div class="row">
+  <div class="column">
+   <a href="appliances.html"><img src="images/a8.jpg" alt="Snow" style="width:100%"> </a>
+    <h4>Prestige Induction Cooktop With Remote</h4>
+    <button id ="btn">Buy</button>
+    
+  </div>
+  <div class="column">
+   <a href="knives.html"> <img src="images/knife7.jpg" alt="Forest" style="width:100%"></a>
+    <h4>knives set</h4>
+    <button id ="btn">Buy</button>
+   
+  </div>
+  <div class="column">
+   <a href="appliances.html"> <img src="images/a4.jpg" alt="Mountains" style="width:100%"></a>
+    <h4>WONDERCHEF Acura Plus Electric Kettle
+</h4>
+    <button id ="btn">Buy</button>
+  </div>
+  <div class="column">
+   <a href="pans.html"> <img src="images/p8.jpg" alt="Forest" style="width:100%"></a>
+    <h4>WONDERCHEF Sapphire Forged Frying Pan</h4>
+    <button id ="btn">Buy</button>
+<br>
+<br>
+  </div>
+
+</div> 
+<div class="footer"> 
+
+<div class="ktta"><ul>
+<li><font size="5" ><b>BRANDS</b></font></li>
+<li>Prestige</li>
+<li>Wonderchef</li>
+<li>Milton</li>
+<li>Tupperware</li>
+</ul>
+</div>
+<div class="ktta">
+<ul>
+<li><font size="5"><b>VISIT US</b></font></li>
+<li><a href="contact.html">Mumbai</a></li>
+<li><a href="contact.html">Delhi</a></li>
+<li><a href="contact.html">Bangalore</a></li>
+<li><a href="contact.html">Chennai</a></li>
+</ul>
+</div>
+<div class="ktta">
+<ul>
+<li><font size="5"><b>INFO</b></font></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+<li><a href="t&c.html">Ts & Cs</a></li>
+</ul>
+</div>
+<div class="ktta">
+<ul>
+<li><font size="5"><b>FOLLOW US</b></font></li>
+<li><center><a href=""><i class="fab fa-facebook"></i></a></center></li>
+<li><center><a href=""><i class="fab fa-twitter"></i></a></li></center>
+<li><center><a href=""><i class="fab fa-instagram"></i></a></li></center>
+</ul>
+</div>
+</div>
+<hr>
+<div class="footer1">
+<center><table>
+<tr>
+<td><pre><div class="img2"><a href=""><img src="images/logo.png" height=55px> </a></div></pre></td>
+<td><pre style="font-family:arial; font-size:15;padding-left:30"> Copyright (c) Metro Investments Pte Ltd. All rights reserved.  </pre></td> 
+</tr>
+</table>
+</center>
+</div>
+</body>
+</html>
